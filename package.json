@@ -1,0 +1,15 @@
+{
+  "name": "js_person",
+  "version": "1.0.0",
+  "description": "js test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/**/*.test.js",
+    "test-watch": "node_modules/mocha/bin/mocha test/**/*.test.js --watch"
+  },
+  "author": "Kasumi",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
